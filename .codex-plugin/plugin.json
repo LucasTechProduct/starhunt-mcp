@@ -1,0 +1,47 @@
+{
+  "name": "starhunt",
+  "version": "1.0.0",
+  "description": "Source software engineers from GitHub, ranked by what they build.",
+  "author": {
+    "name": "StarHunt",
+    "email": "contact@getstarhunt.com",
+    "url": "https://www.getstarhunt.com"
+  },
+  "homepage": "https://www.getstarhunt.com/mcp.html",
+  "repository": "https://github.com/LucasTechProduct/starhunt-mcp",
+  "keywords": [
+    "recruiting",
+    "sourcing",
+    "hiring",
+    "github",
+    "developers",
+    "talent"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "StarHunt",
+    "shortDescription": "Find engineers by what they build on GitHub",
+    "longDescription": "Search GitHub developers by technology, role and location, or from a pasted job description. Results are ranked on evidence of real work: contributions merged over the last twelve months, the languages in a developer's own repositories, and how recently they shipped. Each profile carries the public email or LinkedIn that person chose to publish. Save the ones worth pursuing to a pipeline and read it back later, without leaving the conversation.",
+    "developerName": "StarHunt",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.getstarhunt.com",
+    "privacyPolicyURL": "https://www.getstarhunt.com/privacy.html",
+    "termsOfServiceURL": "https://www.getstarhunt.com/terms.html",
+    "defaultPrompt": [
+      "Find AI product engineers in San Francisco who ship Python in production.",
+      "Here is my job post, find me ten matching engineers in Berlin.",
+      "Who have I saved to my pipeline and not contacted yet?"
+    ],
+    "brandColor": "#1E4DB7",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot-1.png"
+    ]
+  }
+}
