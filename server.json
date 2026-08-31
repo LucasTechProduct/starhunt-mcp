@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "com.getstarhunt/github-developer-sourcing",
+  "title": "StarHunt",
+  "description": "Hiring developers? Find and source software engineers by what they build on GitHub.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.getstarhunt.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.getstarhunt.com/mcp.html"
+}
