@@ -1,0 +1,2 @@
+# starhunt-mcp
+StarHunt MCP
